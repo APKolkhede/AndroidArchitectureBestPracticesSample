@@ -3,13 +3,8 @@ Sample Android Application developed using  feature modularisation approach. Mai
 
 # Environment SetUp
 This is developed using Android Studio Artic Fox and gradle plugin 7.0.3 which require Jdk 11 for compialtion.
-Add movie db api key in local.properties API_KEY = <your api key>
+Add movie db api key in local.properties API_KEY = your api key
   
-#JetPack
-  
-# Demo
-![](demo/demo.gif)
-
 ## Tech-stack
 
 This project uses below libraries. 
@@ -34,3 +29,7 @@ This project uses below libraries.
 -   [JUnit](https://github.com/junit-team/junit4) - a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
 -   [Mockk](https://github.com/mockk/mockk) - provides DSL to mock behavior. Built from zero to fit Kotlin language.
 -   [AndroidX](https://github.com/android/android-test) - the androidx test library provides an extensive framework for testing Android apps.
+  
+# Demo
+![](demo/demo.gif)
+
