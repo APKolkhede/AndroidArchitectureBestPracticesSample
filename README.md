@@ -2,7 +2,7 @@
 Sample Android Application developed using  feature modularisation approach. Mainly focused on scalability, testability and maintainability. Written in Kotlin. Using Jetpack Libraries
 
 # Environment SetUp
-This is developed using Android Studio Artic Fox and gradle plugin 7.0.3 which require Jdk 11 for compialtion.
+This is developed using Android Studio Artic Fox and gradle plugin 7.0.3 which require Jdk 11 for compilation.
 Add movie db api key in local.properties API_KEY = your api key
   
 ## Tech-stack
