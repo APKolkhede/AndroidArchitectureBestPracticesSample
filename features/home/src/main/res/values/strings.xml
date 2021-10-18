@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_title">Error</string>
+    <string name="retry_button">Retry</string>
+    <string name="title_home">Home</string>
+    <string name="title_movie_details">Details</string>
+    <string name="add_to_favorite_content_description">add to favorite</string>
+</resources>

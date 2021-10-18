@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="title_home">Home</string>
+    <string name="title_upcoming_movies">Upcoming</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_movie_details">Details</string>
+</resources>
