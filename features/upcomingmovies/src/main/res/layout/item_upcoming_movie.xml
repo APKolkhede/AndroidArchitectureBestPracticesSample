@@ -4,35 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    android:background="#000000">
+    android:layout_margin="@dimen/margin_5dp"
+    android:background="@color/black">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/movieCover"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="@dimen/moviecover_item_height"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/upcomingMovieTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textColor="#ffffff"
-        android:textSize="18sp"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_18sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/movieCover"
-        tools:text="texthfkdjfhkj" />
+        app:layout_constraintTop_toBottomOf="@+id/movieCover" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/upcomingMovieOverview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textColor="#ffffff"
-        android:textSize="14sp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_14sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/upcomingMovieTitle"
-        tools:text="texthfkdjfhkj" />
+        app:layout_constraintTop_toBottomOf="@+id/upcomingMovieTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
